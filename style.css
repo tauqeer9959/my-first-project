@@ -1,0 +1,112 @@
+/* Resetting padding and margin for all elements */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* General body styling */
+body {
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    margin: 30px;
+}
+
+/* Navigation bar styling */
+.nav-bar {
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: #00f;
+}
+
+/* Heading styling */
+h2 {
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+/* Flexbox container for inline display of divs */
+.divone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;  /* Allows items to wrap to the next line if needed */
+    gap: 2rem;  /* Adds space between items */
+}
+
+/* Individual div styling */
+.divone > div {
+    padding: 50px;
+    border: 1px solid #f6b;
+    text-align: center;
+    font-size: x-large;
+    font-family: sans-serif, Helvetica, Arial;
+    color: #fff;
+    flex: 1 1 30%;  /* Ensures that the divs take up equal space and wrap if necessary */
+    max-width: 30%;  /* Prevents the divs from getting too wide */
+}
+
+.div1 {
+    background-color: #ff0000;
+}
+
+.div2 {
+    background-color: #008000;
+}
+
+.div3 {
+    background-color: #0000ff;
+}
+
+.div4 {
+    background-color: #000000;
+}
+
+.div5 {
+    background-color: #ffff00;
+    color: #000;  /* Adjusted color for contrast */
+}
+
+.div6 {
+    background-color: #ffa500;
+}
+
+.div7 {
+    background-color: #ffc0cb;
+    color: #000;  /* Adjusted color for contrast */
+}
+
+.div8 {
+    background-color: #f0f8ff;
+    color: #000;  /* Adjusted color for contrast */
+}
+
+.div9 {
+    background-color: #a52a2a;
+}
+
+/* Footer paragraph styling */
+p {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
